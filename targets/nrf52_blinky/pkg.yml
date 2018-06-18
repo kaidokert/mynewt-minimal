@@ -1,0 +1,24 @@
+### Package: targets/nrf52_blinky
+pkg.name: "targets/nrf52_blinky"
+pkg.type: "target"
+pkg.description:
+pkg.author:
+pkg.homepage:
+
+bullcrap:
+    - '-DPWM0_ENABLED=0'
+    - '-DRNG_ENABLED=0'
+    - '-DTIMER0_ENABLED=1'
+    - '-DLPCOMP_ENABLED=0'
+    - '-DSAADC_ENABLED=0'
+    - '-DQDEC_ENABLED=0'
+    - '-DSPI_MASTER_0_ENABLE=0'
+    - '-DSPI0_ENABLED=0'
+    - '-DSPI0_USE_EASY_DMA=0'
+    - '-DSPIS0_ENABLED=0'
+    - '-DTWI0_ENABLED=0'
+    - '-DTWI1_ENABLED=0'
+    - '-DTWIS0_ENABLED=0'
+    - '-DUART0_ENABLED=0'
+    - '-DWDT_ENABLED=0'
+    - '-DI2S_ENABLED=0'
